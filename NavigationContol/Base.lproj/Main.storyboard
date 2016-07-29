@@ -139,11 +139,11 @@
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vHc-yj-86U">
-                                <rect key="frame" x="0.0" y="124" width="600" height="200"/>
+                                <rect key="frame" x="0.0" y="114" width="600" height="225"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="279" id="XbU-go-oBE"/>
-                                    <constraint firstAttribute="height" constant="200" id="iMG-rn-F8I"/>
+                                    <constraint firstAttribute="height" constant="225" id="iMG-rn-F8I"/>
                                 </constraints>
                                 <string key="text">Embedding a VC in navigation controller and using pop to move back to the root view controller.  Difference between Pop and Unwind. With unwind, you can pass data back to your root view controller.  If you use POP, you need to create a delegate protocol to pass data back to the Root VC you are navigating back to.  See http://stackoverflow.com/questions/22874429/whats-the-difference-between-unwind-segues-and-popping-to-view-controllers.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -167,7 +167,7 @@
                             <constraint firstItem="n7Y-XZ-0nB" firstAttribute="top" secondItem="wu0-QD-dP8" secondAttribute="bottom" constant="175" id="Uxd-v4-2IZ"/>
                             <constraint firstItem="vHc-yj-86U" firstAttribute="width" secondItem="soj-ne-V3C" secondAttribute="height" multiplier="13:15" id="YQN-tL-VzY"/>
                             <constraint firstItem="wu0-QD-dP8" firstAttribute="top" secondItem="vHc-yj-86U" secondAttribute="bottom" constant="20" id="ZRM-W6-Acc"/>
-                            <constraint firstItem="vHc-yj-86U" firstAttribute="top" secondItem="vmk-gE-iwW" secondAttribute="bottom" constant="60" id="Zkr-i1-Iso"/>
+                            <constraint firstItem="vHc-yj-86U" firstAttribute="top" secondItem="vmk-gE-iwW" secondAttribute="bottom" constant="50" id="Zkr-i1-Iso"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
